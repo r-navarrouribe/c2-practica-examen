@@ -43,7 +43,7 @@ function App() {
 
   // put request --> editar
   const editarArticulo = useCallback(async () => {
-    const resp = await fetch(urlAPI + "3", {
+    const resp = await fetch(urlAPI + "2", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
